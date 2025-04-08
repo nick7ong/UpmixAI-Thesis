@@ -1,0 +1,37 @@
+P1:
+['2BA', '2BD', '2BB', '2BC', '4DC', '4DB', '4DA', '4DD', '5EB', '5EA', '5ED', '5EC', '6FC', '6FA', '6FD', '6FB', '1AB', '1AD', '1AA', '1AC', '3CB', '3CC', '3CD', '3CA']
+
+P2:
+['2BB', '2BD', '2BA', '2BC', '1AD', '1AA', '1AC', '1AB', '4DD', '4DA', '4DB', '4DC', '5EC', '5EA', '5ED', '5EB', '6FB', '6FA', '6FD', '6FC', '3CB', '3CA', '3CC', '3CD']
+
+P3:
+['6FB', '6FA', '6FC', '6FD', '1AD', '1AB', '1AC', '1AA', '3CB', '3CD', '3CC', '3CA', '5EB', '5ED', '5EC', '5EA', '2BA', '2BD', '2BC', '2BB', '4DB', '4DA', '4DC', '4DD']
+
+P4:
+['5ED', '5EC', '5EB', '5EA', '4DA', '4DB', '4DD', '4DC', '2BA', '2BD', '2BC', '2BB', '1AB', '1AA', '1AD', '1AC', '6FB', '6FA', '6FC', '6FD', '3CC', '3CB', '3CA', '3CD']
+
+P5:
+['1AD', '1AC', '1AB', '1AA', '4DC', '4DA', '4DB', '4DD', '2BD', '2BA', '2BB', '2BC', '6FA', '6FC', '6FB', '6FD', '3CB', '3CC', '3CD', '3CA', '5ED', '5EB', '5EC', '5EA']
+
+P6:
+['3CD', '3CA', '3CC', '3CB', '2BB', '2BA', '2BD', '2BC', '6FB', '6FC', '6FA', '6FD', '4DD', '4DA', '4DC', '4DB', '5EA', '5ED', '5EB', '5EC', '1AC', '1AB', '1AD', '1AA']
+
+P7:
+['5ED', '5EB', '5EC', '5EA', '6FA', '6FB', '6FC', '6FD', '2BD', '2BB', '2BA', '2BC', '1AD', '1AA', '1AB', '1AC', '4DA', '4DC', '4DB', '4DD', '3CD', '3CA', '3CB', '3CC']
+
+P8:
+['2BD', '2BC', '2BB', '2BA', '6FD', '6FC', '6FB', '6FA', '3CB', '3CD', '3CA', '3CC', '1AD', '1AA', '1AB', '1AC', '5EA', '5ED', '5EC', '5EB', '4DC', '4DD', '4DA', '4DB']
+
+P9:
+['6FA', '6FC', '6FD', '6FB', '3CD', '3CC', '3CA', '3CB', '4DA', '4DC', '4DB', '4DD', '1AC', '1AB', '1AD', '1AA', '2BC', '2BA', '2BD', '2BB', '5EC', '5EB', '5ED', '5EA']
+
+P10:
+['4DB', '4DA', '4DC', '4DD', '3CC', '3CB', '3CA', '3CD', '1AB', '1AA', '1AC', '1AD', '6FC', '6FD', '6FB', '6FA', '2BD', '2BC', '2BB', '2BA', '5EC', '5ED', '5EB', '5EA']
+
+P11:
+['1AA', '1AB', '1AD', '1AC', '4DB', '4DA', '4DC', '4DD', '5EC', '5ED', '5EB', '5EA', '3CA', '3CD', '3CB', '3CC', '2BC', '2BD', '2BA', '2BB', '6FA', '6FB', '6FC', '6FD']
+
+P12:
+['3CA', '3CC', '3CD', '3CB', '1AD', '1AC', '1AB', '1AA', '4DA', '4DB', '4DD', '4DC', '5EA', '5EC', '5EB', '5ED', '2BC', '2BA', '2BB', '2BD', '6FB', '6FD', '6FC', '6FA']
+
+

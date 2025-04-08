@@ -1,0 +1,172 @@
+C:\Users\nickn\Desktop\thesis-eval\.venv\Scripts\python.exe C:\Users\nickn\Desktop\thesis-eval\mushra_eval.py 
+
+=== Analyzing Overall Envelopment & Immersion ===
+
+Friedman Test for Stimulus: A
+Friedman chi-square = 3.990, p = 0.2625
+
+Friedman Test for Stimulus: B
+Friedman chi-square = 0.429, p = 0.9343
+
+Friedman Test for Stimulus: C
+Friedman chi-square = 9.798, p = 0.0204
+
+Nemenyi post-hoc test for C
+                All-Ch. Stereo  DNN-Based  DSP-Based  MLP-Based
+All-Ch. Stereo        1.000000   0.099694   0.082573   0.733162
+DNN-Based             0.099694   1.000000   0.999823   0.585369
+DSP-Based             0.082573   0.999823   1.000000   0.534804
+MLP-Based             0.733162   0.585369   0.534804   1.000000
+
+Friedman Test for Stimulus: D
+Friedman chi-square = 7.740, p = 0.0517
+
+Friedman Test for Stimulus: E
+Friedman chi-square = 19.075, p = 0.0003
+
+Nemenyi post-hoc test for E
+                All-Ch. Stereo  DNN-Based  DSP-Based  MLP-Based
+All-Ch. Stereo        1.000000   0.055437   0.685342   0.484854
+DNN-Based             0.055437   1.000000   0.484854   0.000449
+DSP-Based             0.685342   0.484854   1.000000   0.055437
+MLP-Based             0.484854   0.000449   0.055437   1.000000
+
+Friedman Test for Stimulus: F
+Friedman chi-square = 6.771, p = 0.0796
+
+=== Overall System Ranking for Overall Envelopment & Immersion ===
+System
+DNN-Based         4.838889
+DSP-Based         4.769444
+MLP-Based         4.255556
+All-Ch. Stereo    3.977778
+Name: Overall Envelopment & Immersion, dtype: float64
+
+=== Analyzing Spatial & Temporal Quality ===
+
+Friedman Test for Stimulus: A
+Friedman chi-square = 2.301, p = 0.5123
+
+Friedman Test for Stimulus: B
+Friedman chi-square = 4.867, p = 0.1818
+
+Friedman Test for Stimulus: C
+Friedman chi-square = 13.441, p = 0.0038
+
+Nemenyi post-hoc test for C
+                All-Ch. Stereo  DNN-Based  DSP-Based  MLP-Based
+All-Ch. Stereo        1.000000   0.196885   0.011021   0.921603
+DNN-Based             0.196885   1.000000   0.685342   0.534804
+DSP-Based             0.011021   0.685342   1.000000   0.067900
+MLP-Based             0.921603   0.534804   0.067900   1.000000
+
+Friedman Test for Stimulus: D
+Friedman chi-square = 5.292, p = 0.1516
+
+Friedman Test for Stimulus: E
+Friedman chi-square = 19.890, p = 0.0002
+
+Nemenyi post-hoc test for E
+                All-Ch. Stereo  DNN-Based  DSP-Based  MLP-Based
+All-Ch. Stereo        1.000000   0.044941   0.344968   0.685342
+DNN-Based             0.044941   1.000000   0.778483   0.001161
+DSP-Based             0.344968   0.778483   1.000000   0.028918
+MLP-Based             0.685342   0.001161   0.028918   1.000000
+
+Friedman Test for Stimulus: F
+Friedman chi-square = 2.073, p = 0.5574
+
+=== Overall System Ranking for Spatial & Temporal Quality ===
+System
+DSP-Based         4.640278
+DNN-Based         4.459722
+MLP-Based         4.070833
+All-Ch. Stereo    3.876389
+Name: Spatial & Temporal Quality, dtype: float64
+
+=== Analyzing Spectral Quality ===
+
+Friedman Test for Stimulus: A
+Friedman chi-square = 14.257, p = 0.0026
+
+Nemenyi post-hoc test for A
+                All-Ch. Stereo  DNN-Based  DSP-Based  MLP-Based
+All-Ch. Stereo        1.000000   0.389401   0.778483   0.002836
+DNN-Based             0.389401   1.000000   0.921603   0.229104
+DSP-Based             0.778483   0.921603   1.000000   0.055437
+MLP-Based             0.002836   0.229104   0.055437   1.000000
+
+Friedman Test for Stimulus: B
+Friedman chi-square = 4.316, p = 0.2293
+
+Friedman Test for Stimulus: C
+Friedman chi-square = 11.179, p = 0.0108
+
+Nemenyi post-hoc test for C
+                All-Ch. Stereo  DNN-Based  DSP-Based  MLP-Based
+All-Ch. Stereo        1.000000   0.534804   0.264593   0.921603
+DNN-Based             0.534804   1.000000   0.964741   0.196885
+DSP-Based             0.264593   0.964741   1.000000   0.067900
+MLP-Based             0.921603   0.196885   0.067900   1.000000
+
+Friedman Test for Stimulus: D
+Friedman chi-square = 3.100, p = 0.3765
+
+Friedman Test for Stimulus: E
+Friedman chi-square = 16.326, p = 0.0010
+
+Nemenyi post-hoc test for E
+                All-Ch. Stereo  DNN-Based  DSP-Based  MLP-Based
+All-Ch. Stereo        1.000000   0.264593   0.858779   0.344968
+DNN-Based             0.264593   1.000000   0.733162   0.002836
+DSP-Based             0.858779   0.733162   1.000000   0.067900
+MLP-Based             0.344968   0.002836   0.067900   1.000000
+
+Friedman Test for Stimulus: F
+Friedman chi-square = 2.585, p = 0.4601
+
+=== Overall System Ranking for Spectral Quality ===
+System
+DSP-Based         5.224306
+DNN-Based         5.154861
+All-Ch. Stereo    5.057639
+MLP-Based         3.988798
+Name: Spectral Quality, dtype: float64
+
+=== Overall Combined Mean Ratings Across All Metrics ===
+                Overall Envelopment & Immersion  ...  Total Mean
+System                                           ...            
+DSP-Based                              4.769444  ...   14.634028
+DNN-Based                              4.838889  ...   14.453472
+All-Ch. Stereo                         3.977778  ...   12.911806
+MLP-Based                              4.255556  ...   12.315187
+
+[4 rows x 4 columns]
+
+=== Friedman Test on Overall Metrics ===
+Overall Envelopment & Immersion: chi-square = 10.816, p = 0.0128
+
+Nemenyi post-hoc test for Overall Envelopment & Immersion
+                All-Ch. Stereo  DNN-Based  DSP-Based  MLP-Based
+All-Ch. Stereo        1.000000   0.018099   0.067900   0.585369
+DNN-Based             0.018099   1.000000   0.964741   0.344968
+DSP-Based             0.067900   0.964741   1.000000   0.635810
+MLP-Based             0.585369   0.344968   0.635810   1.000000
+Spatial & Temporal Quality: chi-square = 9.816, p = 0.0202
+
+Nemenyi post-hoc test for Spatial & Temporal Quality
+                All-Ch. Stereo  DNN-Based  DSP-Based  MLP-Based
+All-Ch. Stereo        1.000000   0.167936   0.067900   0.995308
+DNN-Based             0.167936   1.000000   0.979071   0.264593
+DSP-Based             0.067900   0.979071   1.000000   0.119495
+MLP-Based             0.995308   0.264593   0.119495   1.000000
+Spectral Quality: chi-square = 10.500, p = 0.0148
+
+Nemenyi post-hoc test for Spectral Quality
+                All-Ch. Stereo  DNN-Based  DSP-Based  MLP-Based
+All-Ch. Stereo        1.000000   0.858779   0.733162   0.264593
+DNN-Based             0.858779   1.000000   0.995308   0.044941
+DSP-Based             0.733162   0.995308   1.000000   0.022956
+MLP-Based             0.264593   0.044941   0.022956   1.000000
+
+Process finished with exit code 0
