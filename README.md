@@ -8,24 +8,24 @@ Experimental results demonstrate that MSS models can be successfully adapted for
 
 ---
 
-## Contents
+## GitHub Repository Contents
 This repository contains all the code, data, and assets used in the experiments:
 
-- **Model Architectures**  
-  PyTorch implementations of:
-  - [Mel-RoFormer](https://ieeexplore.ieee.org/abstract/document/10446843) (Lu et al., 2024)
-  - [MLP](https://ieeexplore.ieee.org/abstract/document/8461459) (Ibrahim et al., 2018)
+### Model Architectures
+PyTorch implementations of:
+- [Mel-RoFormer](https://ieeexplore.ieee.org/abstract/document/10446843) (Lu et al., 2024)
+- [MLP](https://ieeexplore.ieee.org/abstract/document/8461459) (Ibrahim et al., 2018)
 
-- **Data Analysis Scripts**  
-  Scripts for:
-  - Objective metric evaluation (e.g., SDR, SI-SDR, LSD)
-  - Subjective listening test analysis
+### Data Analysis Scripts
+Scripts for:
+- Objective metric evaluation (e.g., SDR, SI-SDR, LSD)
+- Subjective listening test analysis
 
-- **Raw Evaluation Data**  
-  Includes:
-  - Metric scores for all systems
-  - Participant responses from listening tests
-  - Summary statistics and visualizations
+### Raw Evaluation Data
+Includes:
+- Metric scores for all systems
+- Participant responses from listening tests
+- Summary statistics and visualizations
 
 ---
 
@@ -33,7 +33,7 @@ This repository contains all the code, data, and assets used in the experiments:
 
 All pretrained weights, training datasets, and audio examples are available on the [Hugging Face](https://huggingface.co/nick7ong/).
 
-Contents:
+### Contents:
 - Model weights for all trained models
 - Processed training dataset (PAEDB)
 - Test audio examples for all evaluation
