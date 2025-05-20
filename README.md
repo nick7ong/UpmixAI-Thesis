@@ -1,5 +1,6 @@
 # UpmixAI: Automatic Blind Stereo-to-Surround Upmixing Using Music Source Separation Deep Neural Networks
-## Abstract
+
+## Abstract | [Thesis Paper](https://scholarship.miami.edu/esploro/outputs/991032663037302976)
 Blind stereo-to-surround upmixing aims to convert stereo audio into a multichannel surround mix without access to original multitrack recordings. Traditional upmixing approaches rely on Primary-Ambient Extraction (PAE) using digital signal processing (DSP) techniques, which often suffer from limited generalization and spatial artifacts. This work proposes a deep learning-based alternative, integrating high-complexity state-of-the-art (SOTA) music source separation (MSS) models to enhance ambient signal extraction and stereo decorrelation.
 
 We evaluate the efficacy of SOTA MSS architectures for separating primary and ambient components for improved spatial and spectral coherence. The selected deep neural network (DNN) architecture is trained on a custom dataset constructed from open-source music data and assessed using both objective SDR and SI-SDR metrics and a controlled participant listening study.
@@ -37,6 +38,22 @@ All pretrained weights, training datasets, and audio examples are available on t
 - Model weights for all trained models
 - Processed training dataset (PAEDB)
 - Test audio examples for all evaluation
+
+
+## Citation
+
+**If you use my project in your research or development**, please cite my master's thesis paper:
+
+```bibtex
+@misc{tong2025upmixai,
+  author       = {Nicholas N Tong},
+  title        = {UpmixAI: Automatic Blind Stereo-to-Surround Upmixing Using Music Source Separation Deep Neural Networks},
+  school       = {University of Miami},
+  year         = {2025},
+  note         = {Master's Thesis},
+  howpublished = {\url{https://scholarship.miami.edu/esploro/outputs/991032663037302976}}
+}
+```
 
 
 
