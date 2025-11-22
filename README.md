@@ -45,7 +45,7 @@ All pretrained weights, training datasets, and audio examples are available on t
 **If you use my project in your research or development**, please cite my master's thesis paper:
 
 ```bibtex
-@misc{tong2025upmixai,
+@mastersthesis{tong2025upmixai,
   author       = {Nicholas N Tong},
   title        = {UpmixAI: Automatic Blind Stereo-to-Surround Upmixing Using Music Source Separation Deep Neural Networks},
   school       = {University of Miami},
